@@ -1,5 +1,5 @@
 device=0
-data=data/data_so/fold1/
+data=data/AMZN
 batch=4
 n_head=4
 n_layers=4
