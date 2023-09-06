@@ -242,6 +242,9 @@ def main():
 
     """ train the model """
     train(model, trainloader, testloader, optimizer, scheduler, pred_loss_func, opt)
+    
+    print("model saved..")
+    torch.save(model, "model.pt")
 
 
 if __name__ == '__main__':
